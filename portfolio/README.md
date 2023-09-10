@@ -1,8 +1,8 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Learnings
+- Use of tailwindcss and how to dynamically render
+the portfolio based on device size
+- The use of z-index, relative and absolute, and
+how absolute can shift a particular section down
+to avoid overlaying issue (i.e hero is under the navbar, since
+navbar has higher z index)
+- h-screen to create a hero
