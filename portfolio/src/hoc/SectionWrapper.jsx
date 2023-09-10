@@ -10,7 +10,7 @@ const SectionWrapper = (OriginalComponent, id) => {
                 <motion.section
                     className={`${styles.padding} z-0 mx-auto relative`}>
 
-                    <span id={id}>&nbsp;</span>
+                    <span className={`hash-span absolute top-0 max-h-0`} id={id}>&nbsp;</span>
                     <OriginalComponent />
                 </motion.section>
             )

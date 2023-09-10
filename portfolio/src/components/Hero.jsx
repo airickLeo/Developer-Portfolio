@@ -5,7 +5,7 @@ import { wavingHand } from "../assets"
 const Hero = () => {
     return (
         <section
-            className="relative mx-auto h-screen w-full">
+            className="relative mx-auto h-screen w-full mb-[200px]">
 
             <div className={`flex absolute top-[120px] w-full ${styles.heroPX} items-start mt-2 flex-col`}>
                 <div className={`flex flex-1 w-full`}>
