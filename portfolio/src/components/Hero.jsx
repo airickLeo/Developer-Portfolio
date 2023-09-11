@@ -9,18 +9,18 @@ const Hero = () => {
 
             <div className={`flex absolute top-[120px] w-full ${styles.heroPX} items-start mt-2 flex-col`}>
                 <div className={`flex flex-1 w-full`}>
-                    <p className={`hidden md:flex blue-text-gradient ${styles.heroHeadText}`}>
+                    <h1 className={`hidden md:flex blue-text-gradient ${styles.heroHeadText}`}>
                         Hi there, I'm &nbsp;
                         <span className="green-text-gradient">
                             Eric
                         </span>
-                    </p>
-                    <p className={`md:hidden items-center blue-text-gradient ${styles.heroHeadText}`}>
+                    </h1>
+                    <h1 className={`md:hidden items-center blue-text-gradient ${styles.heroHeadText}`}>
                         Hi, I'm &nbsp;
                         <span className="green-text-gradient">
                             Eric
                         </span>
-                    </p>
+                    </h1>
                     <img src={wavingHand} alt="wavingHand"
                         className={`${styles.heroImage} hidden sm:flex items-center object-contain lg:w-[80px] lg:h-[80px]`} />
                 </div>

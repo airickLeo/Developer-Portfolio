@@ -7,20 +7,15 @@ const About = () => {
     // add framer motion to each of the motion divs
     return (
         <>
-            <div className="flex flex-1 flex-col w-full gap-5 max-w-[1600px]">
-                <motion.p
-                    className={`${styles.sectionSubText} font-bold top-0`}>
-                    more about me
-                </motion.p>
-
-                <motion.p
+            <div className="flex flex-col w-full gap-5">
+                <motion.h2
                     className={`${styles.sectionHeadText}`}>
                     Overview
-                </motion.p>
+                </motion.h2>
 
-                <div className="flex flex-row w-full justify-between mt-4 items-center">
+                <div className="flex flex-row w-full justify-between mt-4 items-center text-gray-300 text-[15px]">
                     <motion.p
-                    className="leading-7 w-3/5">
+                        className="leading-7 w-3/5">
                         I am a third year Computer Science student at the University
                         of Waterloo. I am experienced in JavaScript, React, Node.js,
                         and Express.js. I am a fast learner and self-starter who always
@@ -30,10 +25,16 @@ const About = () => {
                         under the limited time frame of 4 months.
                     </motion.p>
                     <motion.p
-                    className="max-w-[1792px]">
+                        className="">
                         photo
                     </motion.p>
                 </div>
+
+                <motion.div
+                    className={`${styles.sectionSubText} font-bold mt-20 mx-auto`}>
+                    My Expertise
+                </motion.div>
+
             </div>
         </>
     )

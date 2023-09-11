@@ -7,6 +7,8 @@ import { Link } from "react-router-dom"
 const Navbar = () => {
     // state to keep track which href was clicked
     const [selected, setSelected] = useState("");
+
+    // toggle menu on small devices
     const [menuOpen, setOpen] = useState(false);
 
     return (
@@ -32,7 +34,7 @@ const Navbar = () => {
                     className="gap-10 list-none hidden sm:flex">
                     {navLinks.map((nav, index) => (
                         <li key={nav.id}
-                            className={`${nav.id == selected ? "text-rose-300" : "text-secondary"} cursor-pointer font-bold hover:text-gray-200 hover:underline`}
+                            className={`${nav.id == selected ? "text-rose-300" : "text-secondary"} cursor-pointer font-bold hover:text-gray-200 `}
                             onClick={() => { setSelected(nav.id) }}>
                             <a href={`#${nav.id}`}> {nav.title} </a>
                         </li>
@@ -49,7 +51,7 @@ const Navbar = () => {
                             {navLinks.map((nav, index) => (
                                 <li key={`nav-menu-${nav.id}`}
                                     className={`${nav.id == selected ? "text-purple-300" : "text-secondary"} cursor-pointer font-bold
-                        hover:text-gray-200 hover:underline`}
+                        hover:text-gray-200`}
                                     onClick={() => { setSelected(nav.id), setOpen(!menuOpen) }}>
                                     <a href={`#${nav.id}`}> {nav.title} </a>
                                 </li>
