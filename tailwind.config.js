@@ -28,7 +28,7 @@ export default {
         heroContact: "900px"
       },
       backgroundImage: {
-        "herobg": "url('./src/assets/bg2.jpg')",
+        "herobg": "url(`/bg2.jpg`)",
       },
     },
   },
