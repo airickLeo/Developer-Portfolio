@@ -32,7 +32,11 @@ import emailIcon from "./footer/envelope-solid.svg"
 import githubIcon from "./footer/github.svg"
 import linkedinIcon from "./footer/linkedin.svg"
 import backToTopIcon from "./footer/backToTop.svg"
+import burgerMenu from "./menu.png"
+import closeButton from "./closeButton.png"
+import mainBg from "./bg2.jpg"
 
 export { logo, wavingHand, resume, css, react, git, html, javascript, node,
      tailwind, typescript, sql, cpp, pandas, numpy, playwright, selenium, python,
-auto, data, dev, fullstack, acentury, gm, github, algobot, scraper, spaceInvaders, me, emailIcon, githubIcon, linkedinIcon, backToTopIcon}
+auto, data, dev, fullstack, acentury, gm, github, algobot, scraper, spaceInvaders, me, emailIcon, githubIcon, linkedinIcon, backToTopIcon,
+burgerMenu, closeButton, mainBg}

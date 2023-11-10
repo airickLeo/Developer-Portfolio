@@ -1,3 +1,5 @@
+import { mainBg } from './src/assets'
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -28,7 +30,7 @@ export default {
         heroContact: "900px"
       },
       backgroundImage: {
-        "herobg": "url('./src/assets/bg2.jpg')",
+        "herobg": mainBg,
       },
     },
   },

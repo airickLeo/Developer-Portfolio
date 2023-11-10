@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import styles from "../styles"
 import { navLinks } from "../constants"
-import { logo } from "../assets"
+import { logo, burgerMenu, closeButton } from "../assets"
 import { Link } from "react-router-dom"
 
 const Navbar = (props) => {
@@ -42,7 +42,7 @@ const Navbar = (props) => {
                 </ul>
 
                 <div className="heroContact:hidden flex items-center relative justify-end">
-                    <img src={menuOpen ? "../../src/assets/closeButton.png" : "../../src/assets/menu.png"}
+                    <img src={menuOpen ? closeButton : burgerMenu}
                         className={`object-contain w-[28px] h-[28px] cursor-pointer mr-4`}
                         onClick={() => { setOpen(!menuOpen) }} alt="menu-bar" />
                     <div className={`${menuOpen ? "flex" : "hidden"} black-gradient
