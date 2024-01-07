@@ -1,6 +1,6 @@
 import logo from "./logo.svg"
 import wavingHand from "./waving-hand.png"
-import resume from "./Resume (10).pdf"
+import resume from "./EricLiu_resume.pdf"
 import heroBg from "./pxfuel.jpg"
 import css from "./tech/css.png"
 import react from "./tech/reactjs.png"
@@ -34,8 +34,10 @@ import linkedinIcon from "./footer/linkedin.svg"
 import backToTopIcon from "./footer/backToTop.svg"
 import burgerMenu from "./menu.png"
 import closeButton from "./closeButton.png"
+import mealForU from "./projects/mealForU.png"
+import newtonianApples from "./projects/newtonianApples.png"
 
 export { logo, wavingHand, resume, css, react, git, html, javascript, node,
      tailwind, typescript, sql, cpp, pandas, numpy, playwright, selenium, python,
 auto, data, dev, fullstack, acentury, gm, github, algobot, scraper, spaceInvaders, me, emailIcon, githubIcon, linkedinIcon, backToTopIcon,
-burgerMenu, closeButton}
+burgerMenu, closeButton, mealForU, newtonianApples}

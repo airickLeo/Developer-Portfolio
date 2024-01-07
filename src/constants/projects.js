@@ -1,8 +1,58 @@
-import { spaceInvaders, algobot, scraper } from "../assets"
+import { spaceInvaders, algobot, scraper, mealForU, newtonianApples } from "../assets"
 
 const projects = [
     {
-        name: "Steam Specials Scraper",
+        name: "MealForU",
+        description:
+            "A dietary fullstack application dedicated to help you find the perfect meal suiting your diets",
+        tags: [
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Express.js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "PostgreSQL",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "TailwindCSS",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: mealForU,
+        source_code_link: "https://github.com/airickLeo/MealForU",
+    },
+    {
+        name: "Newtonian Apples",
+        description:
+            "A physics simulation web app designated to engage students with physics and transcend their learning experience",
+        tags: [
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "WebGL",
+                color: "green-text-gradient",
+            },
+            {
+                name: "C#",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Material UI",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: newtonianApples,
+        source_code_link: "https://github.com/airickLeo/NewtonianApples",
+    },
+    {
+        name: "Steam DBot",
         description:
             "Automated bot created utilizing BeautifulSoup library and parallel programming concepts to extract details for discounted games from Steam API",
         tags: [

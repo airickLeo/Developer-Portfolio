@@ -59,7 +59,7 @@ const Projects = () => {
                 Projects
             </h2>
 
-            <div className="mt-16 flex flex-wrap items-start justify-between gap-7">
+            <div className="mt-16 flex flex-wrap justify-start items-start lg:gap-x-[51px] gap-x-[9px] md:gap-x-10 gap-y-12">
                 {projects.map((project, index) => (
                     <ProjectCards key={`project-${index}`} {...project} />
                 ))}
