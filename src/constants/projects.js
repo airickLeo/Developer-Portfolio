@@ -29,7 +29,7 @@ const projects = [
     {
         name: "Newtonian Apples",
         description:
-            "A physics simulation web app designated to engage students with physics and transcend their learning experience",
+            "A physics simulation web app designated to engage students with physics and enhance their learning experience",
         tags: [
             {
                 name: "React",
