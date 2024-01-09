@@ -87,7 +87,7 @@ const Contact = () => {
                 <h3 className={`${styles.sectionSubText}`}>
                     Resume
                 </h3>
-                <iframe src={resume} className="w-full lg:min-h-[680px] min-h-[500px]"></iframe>
+                <iframe src={resume} className="w-full lg:min-h-[680px] min-h-[500px] scale-100"></iframe>
             </div>
         </div>
     )
