@@ -48,11 +48,12 @@ const Contact = () => {
                 email: "",
                 message: ""
             })
-        , (errorReason) => {
-            setSubmit(false);
-            console.error(errorReason);
-            alert("Something went wrong while sending")
-        }})
+                , (errorReason) => {
+                    setSubmit(false);
+                    console.error(errorReason);
+                    alert("Something went wrong while sending")
+                }
+        })
     }
 
     return (
@@ -87,7 +88,7 @@ const Contact = () => {
                 <h3 className={`${styles.sectionSubText}`}>
                     Resume
                 </h3>
-                <iframe src={resume} className="w-full lg:min-h-[680px] min-h-[500px] scale-100"></iframe>
+                <embed src={resume + "#toolbar=0"} menu type="application/pdf" className="scale-100 w-full min-h-[500px] lg:min-h-[680px]"/>
             </div>
         </div>
     )
