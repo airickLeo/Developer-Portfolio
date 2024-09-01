@@ -2,7 +2,7 @@ import { dev, data, fullstack, auto } from "../assets";
 
 const expertise = [
     {
-        title: "Software Developer",
+        title: "Software Engineer",
         icon: dev
     },
     {

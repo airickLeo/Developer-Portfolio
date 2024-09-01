@@ -1,11 +1,36 @@
 import SectionWrapper from "../hoc/SectionWrapper"
 import styles from "../styles"
 import { experience } from "../constants";
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css'; // Ensure the CSS is imported
 
-const ExperienceCard = ({ experience, lastItem }) => {
+const ExperienceCard = ({ experience }) => {
     return (
-        <>
-            <div className="bg-tertiary p-10 rounded-3xl max-w-lg">
+        <VerticalTimelineElement
+            contentStyle={{
+                background: "#1d1836",
+                color: "#fff",
+                borderRadius: "18px",
+                borderStyle: "none",
+                border: "none", 
+                boxShadow: "none",  
+            }}
+            contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+            date={experience.date}
+            iconStyle={{ 
+                background: experience.iconBg,
+            }}
+            icon={
+                <div className='flex justify-center items-center w-full h-full'>
+                    <img
+                        src={experience.icon}
+                        alt={experience.companyName}
+                        className='w-[200%] h-[200%] object-contain'
+                    />
+                </div>
+            }
+        >
+            <div>
                 <h3 className="text-white text-[24px] font-bold">
                     {experience.id}
                 </h3>
@@ -24,11 +49,11 @@ const ExperienceCard = ({ experience, lastItem }) => {
                         </li>
                     ))}
                 </ul>
-                <p className="text-gray-500 text-[12px] font-semibold mt-10 ml-2">
+                {/* <p className="text-gray-500 text-[12px] font-semibold mt-10 ml-2">
                     {experience.date}
-                </p>
+                </p> */}
             </div>
-        </>
+        </VerticalTimelineElement>
     )
 }
 
@@ -36,17 +61,16 @@ const Experience = () => {
     return (
         <div className="mt-24">
             <div className="w-full">
-                <h2 className={`${styles.sectionHeadText} gap-x-0.5 flex`}>
-                    <p>Work &nbsp;</p>
-                    <p>Experience</p>
+                <h2 className={`${styles.sectionHeadText} flex`}>
+                    Work <span className="ml-2">Experience</span>
                 </h2>
             </div>
 
-            <div className="mt-20 flex lg:flex-row flex-col items-start gap-20 justify-between">
+            <VerticalTimeline>
                 {experience.map((item, index) => (
                     <ExperienceCard key={index} experience={item} />
                 ))}
-            </div>
+            </VerticalTimeline>
         </div>
     )
 }

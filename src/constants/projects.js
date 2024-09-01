@@ -1,6 +1,31 @@
-import { spaceInvaders, algobot, scraper, mealForU, newtonianApples } from "../assets"
+import { spaceInvaders, algobot, scraper, mealForU, newtonianApples, UWConnect } from "../assets"
 
 const projects = [
+    {
+        name: "UWConnect",
+        description:
+            "A central hub for resources and information, enhancing connectivity and collaboration at the University of Waterloo",
+        tags: [
+            {
+                name: "Kotlin",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Cloud SQL",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Ktor",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Jetpack Compose",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: UWConnect,
+        source_code_link: "https://student.cs.uwaterloo.ca/%7Ecs346/1249/course-project/gallery/#uwconnect",
+    },
     {
         name: "MealForU",
         description:

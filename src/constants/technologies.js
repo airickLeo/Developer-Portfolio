@@ -1,4 +1,4 @@
-import { cpp, css, git, html, javascript, node, numpy, pandas,
+import { azure, cpp, css, docker, git, html, java, javascript, jenkins, k8s, node, numpy, openshift, pandas,
 playwright, python, react, selenium, sql, tailwind, typescript } from "../assets"
 
 const technologies = [
@@ -29,6 +29,30 @@ const technologies = [
     {
         name: "TypeScript",
         icon: typescript
+    },
+    {
+        name: "Kubernetes",
+        icon: k8s
+    },
+    {
+        name: "Docker",
+        icon: docker
+    },
+    {
+        name: "Jenkins",
+        icon: jenkins
+    },
+    {
+        name: "OpenShift",
+        icon: openshift
+    },
+    {
+        name: "Java",
+        icon: java
+    },
+    {
+        name: "Azure",
+        icon: azure
     },
     {
         name: "git",

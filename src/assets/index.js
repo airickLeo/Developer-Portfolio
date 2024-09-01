@@ -36,8 +36,18 @@ import burgerMenu from "./menu.png"
 import closeButton from "./closeButton.png"
 import mealForU from "./projects/mealForU.png"
 import newtonianApples from "./projects/newtonianApples.png"
+import UWConnect from "./projects/UWConnect.png"
+import k8s from "./tech/k8s.png"
+import java from "./tech/java.png"
+import openshift from "./tech/openshift.svg"
+import jenkins from "./tech/jenkins.png"
+import docker from "./tech/docker.webp"
+import azure from "./tech/azure.png"
+import cibc from "./companies/cibc.png"
+import grantmatch from "./companies/grantmatch.webp"
+import synmatrix from "./companies/synmatrix.png"
 
 export { logo, wavingHand, resume, css, react, git, html, javascript, node,
      tailwind, typescript, sql, cpp, pandas, numpy, playwright, selenium, python,
 auto, data, dev, fullstack, acentury, gm, github, algobot, scraper, spaceInvaders, me, emailIcon, githubIcon, linkedinIcon, backToTopIcon,
-burgerMenu, closeButton, mealForU, newtonianApples}
+burgerMenu, closeButton, mealForU, newtonianApples, UWConnect, k8s, java, openshift, jenkins, docker, azure, cibc, grantmatch, synmatrix}
