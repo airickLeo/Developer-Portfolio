@@ -38,13 +38,7 @@ const About = () => {
                 <div className="relative flex flex-row w-full md:justify-between justify-start items-center text-gray-300 sm:text-[15px] text-[12.5px] mb-20 gap-16 mt-4">
                     <motion.p
                         className={`leading-7 w-[55%] justify-start lg:pb-[74px]`}>
-                        I am a third year Computer Science student at the University
-                        of Waterloo who's experienced in JavaScript, React, Node.js,
-                        and Express.js. I am a fast learner and self-starter who always
-                        wants to pick up new technology and craft something from the ground
-                        up. Through my previous internships, I always work closely with other
-                        developers and departments, and was recognized for my contributions
-                        under the limited time frame of 4 months.
+                        I'm Eric Liu, a fourth year Computer Science student at the University of Waterloo ('26) with experience across full-stack, backend, infra, and developer tooling. I've built systems at Amazon Web Services and CIBC, and will be joining Meta as a Software Engineer Intern in Fall 2025. My work spans from Rust-based observability tools for AWS S3 to fraud management platforms and data pipelines, with a focus on reliability, scalability, and improving developer workflows.
                     </motion.p>
                     <img src={me} alt="photoOfMe" className="rounded-[40px] sm:max-w-[40%] sm:max-h-[280px] max-w-[30%] max-h-[180px] md:mr-3" />
                 </div>

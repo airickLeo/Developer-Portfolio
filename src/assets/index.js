@@ -46,8 +46,13 @@ import azure from "./tech/azure.png"
 import cibc from "./companies/cibc.png"
 import grantmatch from "./companies/grantmatch.webp"
 import synmatrix from "./companies/synmatrix.png"
+import aws from "./companies/aws.png"
+import awsSDK from "./tech/aws.png"
+import rust from "./tech/rust.png"
+import meta from "./companies/meta.png"
 
-export { logo, wavingHand, resume, css, react, git, html, javascript, node,
+
+export { meta, rust, awsSDK, aws, logo, wavingHand, resume, css, react, git, html, javascript, node,
      tailwind, typescript, sql, cpp, pandas, numpy, playwright, selenium, python,
 auto, data, dev, fullstack, acentury, gm, github, algobot, scraper, spaceInvaders, me, emailIcon, githubIcon, linkedinIcon, backToTopIcon,
 burgerMenu, closeButton, mealForU, newtonianApples, UWConnect, k8s, java, openshift, jenkins, docker, azure, cibc, grantmatch, synmatrix}

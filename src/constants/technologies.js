@@ -1,7 +1,15 @@
-import { azure, cpp, css, docker, git, html, java, javascript, jenkins, k8s, node, numpy, openshift, pandas,
+import { rust, awsSDK, azure, cpp, css, docker, git, html, java, javascript, jenkins, k8s, node, numpy, openshift, pandas,
 playwright, python, react, selenium, sql, tailwind, typescript } from "../assets"
 
 const technologies = [
+    {
+        name: "Rust",
+        icon: rust
+    },
+    {
+        name: "AWS",
+        icon: awsSDK
+    },
     {
         name: "JavaScript",
         icon: javascript

@@ -11,7 +11,7 @@ const Footer = () => {
                 className={`flex flex-row w-full items-center 
         justify-between mx-auto max-w-[1380px] text-[15px] text-secondary h-full`}>
                 <p>
-                    &copy; Eric Liu 2023
+                    &copy; Eric Liu 2025
                 </p>
 
                 <div className="flex gap-12 items-center">

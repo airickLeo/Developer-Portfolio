@@ -6,17 +6,17 @@ const expertise = [
         icon: dev
     },
     {
+        title: "Full-Stack Developer",
+        icon: fullstack
+    },
+    {
         title: "Data Engineer",
         icon: data
     },
-    {
-        title: "Automation Developer",
-        icon: auto
-    },
-    {
-        title: "Full-Stack Developer",
-        icon: fullstack
-    }
+    // {
+    //     title: "Automation Developer",
+    //     icon: auto
+    // },
 ]
 
 export default expertise;

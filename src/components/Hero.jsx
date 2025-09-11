@@ -29,10 +29,10 @@ const Hero = () => {
                 max-w-[1600px]`}>
                     <div className={`${styles.heroSubText} text-neutral-300 leading-10 py-6`}>
                         <p className="md:block hidden">
-                            I'm a Developer and Data Engineer who loves to bring creative ideas to life
+                            I'm a Software Engineer who loves to bring creative ideas to life
                         </p>
                         <p className="md:hidden block">
-                            Developer and Data Engineer
+                            Software Engineer
                         </p>
                     </div>
                     <button
